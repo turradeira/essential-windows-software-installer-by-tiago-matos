@@ -6,8 +6,10 @@ import java.awt.event.ActionListener;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
+import java.lang.*;
 import java.lang.ProcessBuilder;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class MainScreen
 {
@@ -19,7 +21,7 @@ public class MainScreen
     private JCheckBox steam_check;
     public boolean dis=false, hwm=false, steam=false;
     ProcessBuilder hw = new ProcessBuilder();
-    hw.command("C:\\Users\\tiaga\\Desktop\\essential software installer by tiago matos\\hwmonitor_1.42.exe");
+    //hw.command("C:\\Users\\tiaga\\Desktop\\essential software installer by tiago matos\\hwmonitor_1.42.exe");
     //endregion
     public MainScreen()
     {
@@ -73,7 +75,7 @@ public class MainScreen
                 else if(hwm_check.isSelected())
                 {
                     JOptionPane.showMessageDialog(null,"Hardware Monitor");
-                    hw.start();
+                    //hw.start();
                 }
                 else if(steam_check.isSelected())
                 {
