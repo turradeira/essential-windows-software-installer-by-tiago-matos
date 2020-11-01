@@ -1,0 +1,10 @@
+C:\Users\tiaga\source\repos\esi\bin\Debug\esi.exe.config
+C:\Users\tiaga\source\repos\esi\bin\Debug\esi.exe
+C:\Users\tiaga\source\repos\esi\bin\Debug\esi.pdb
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.csprojAssemblyReference.cache
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.MainForm.resources
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.Properties.Resources.resources
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.csproj.GenerateResource.cache
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.csproj.CoreCompileInputs.cache
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.exe
+C:\Users\tiaga\source\repos\esi\obj\Debug\esi.pdb
