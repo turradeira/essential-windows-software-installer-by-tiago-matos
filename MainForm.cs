@@ -148,6 +148,15 @@ namespace esi
                 }
                 catch { }
             }
+            if (check_vivaldi.Checked == true)
+            {
+                MessageBox.Show(message_standard + " Vivaldi");
+                try
+                {
+                    Process.Start(folder + "Vivaldi.3.4.2066.94.x64.exe");
+                }
+                catch { }
+            }
             if (check_raidrive.Checked == true)
             {
                 MessageBox.Show(message_standard + " RaiDrive");

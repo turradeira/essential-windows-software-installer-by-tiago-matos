@@ -47,6 +47,7 @@
             this.check_rainmeter = new System.Windows.Forms.CheckBox();
             this.support_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.check_vivaldi = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // check_discord
@@ -202,7 +203,7 @@
             // check_raidrive
             // 
             this.check_raidrive.AutoSize = true;
-            this.check_raidrive.Location = new System.Drawing.Point(128, 104);
+            this.check_raidrive.Location = new System.Drawing.Point(128, 127);
             this.check_raidrive.Name = "check_raidrive";
             this.check_raidrive.Size = new System.Drawing.Size(67, 17);
             this.check_raidrive.TabIndex = 15;
@@ -212,7 +213,7 @@
             // check_rainmeter
             // 
             this.check_rainmeter.AutoSize = true;
-            this.check_rainmeter.Location = new System.Drawing.Point(128, 127);
+            this.check_rainmeter.Location = new System.Drawing.Point(128, 150);
             this.check_rainmeter.Name = "check_rainmeter";
             this.check_rainmeter.Size = new System.Drawing.Size(74, 17);
             this.check_rainmeter.TabIndex = 16;
@@ -232,18 +233,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(128, 151);
+            this.label1.Location = new System.Drawing.Point(136, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 39);
             this.label1.TabIndex = 25;
             this.label1.Text = "More Installers\r\nWill be\r\n Available Soon!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // check_vivaldi
+            // 
+            this.check_vivaldi.AutoSize = true;
+            this.check_vivaldi.Location = new System.Drawing.Point(128, 104);
+            this.check_vivaldi.Name = "check_vivaldi";
+            this.check_vivaldi.Size = new System.Drawing.Size(57, 17);
+            this.check_vivaldi.TabIndex = 26;
+            this.check_vivaldi.Text = "Vivaldi";
+            this.check_vivaldi.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(238, 297);
+            this.Controls.Add(this.check_vivaldi);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.support_button);
             this.Controls.Add(this.check_rainmeter);
@@ -293,6 +305,7 @@
         private System.Windows.Forms.CheckBox check_rainmeter;
         private System.Windows.Forms.Button support_button;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox check_vivaldi;
     }
 }
 
